@@ -42,6 +42,7 @@ require_resource("user", and: [
   "mark_user_identity_primary",
   "get_user_memberships",
   "get_user_organizations",
+  "create_or_update_user"
 ])
 
 require_resource("ticket", and: ["get_requested_tickets", "get_ccd_tickets"])
